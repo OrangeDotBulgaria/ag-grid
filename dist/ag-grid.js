@@ -6731,9 +6731,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	        this.eFloatingTop.style.top = totalHeaderHeight + 'px';
 	        this.eFloatingTop.style.height = floatingTopHeight + 'px';
 	        this.eFloatingBottom.style.height = floatingBottomHeight + 'px';
-	        this.eFloatingBottom.style.top = floatingBottomTop + 'px';
-	        this.ePinnedLeftColsViewport.style.height = heightOfCentreRows + 'px';
-	        this.ePinnedRightColsViewport.style.height = heightOfCentreRows + 'px';
+//	        this.eFloatingBottom.style.top = floatingBottomTop + 'px';
+//	        this.ePinnedLeftColsViewport.style.height = heightOfCentreRows + 'px';
+//	        this.ePinnedRightColsViewport.style.height = heightOfCentreRows + 'px';
 	    };
 	    GridPanel.prototype.setHorizontalScrollPosition = function (hScrollPosition) {
 	        this.eBodyViewport.scrollLeft = hScrollPosition;
